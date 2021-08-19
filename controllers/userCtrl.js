@@ -121,7 +121,7 @@ confirmEmail = (req, res) => {
             });
         }
         else {
-            var url = 'http://localhost:3000/Signup#';
+            var url = 'http://18.167.118.133/Signup#';
             res.send(`<div style = {margin: 'auto'}>
                         <h1 >Decode Cure<h1>
                         <h2>Email Verified Successfully<h2>

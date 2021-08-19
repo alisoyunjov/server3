@@ -1,0 +1,3 @@
+node_modules/
+config/keys.json
+package-lock.json

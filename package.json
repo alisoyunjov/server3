@@ -1,0 +1,40 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "start:dev": "nodemon ./app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.5",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.2.0",
+    "config": "^3.3.4",
+    "crypto": "^1.0.1",
+    "downloadjs": "^1.4.7",
+    "express": "^4.17.1",
+    "fs-extra": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "jszip": "^3.7.1",
+    "mongoose": "^5.11.18",
+    "mongoose-sequence": "^5.3.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.5.0",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "react-dropzone": "^11.3.4",
+    "react-inputs-validation": "^4.8.3",
+    "uuid": "^8.3.2",
+    "validation": "0.0.1",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
